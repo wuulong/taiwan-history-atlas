@@ -28,45 +28,34 @@
 
 ---
 
-## 🏛️ 資料庫架構 (Knowledge Layering)
+## 🏛️ 資料庫架構 (Tiered HGIS Architecture)
 
-本專案的核心資產為 `data/taiwan_history.db`，其遵循三層知識演進邏輯：
+本專案採用 **「分散式溯源，集中式建模」** 的三層架構，確保史料的嚴謹性與知識的整合性：
 
-### 1. Layer 0: 原始文本層 (Raw Corpus)
-- **Table**: `volumes`, `contents`
-- **內容**: 全書 37 卷、88 篇、約 60 萬字原文。包含目錄索引與卷次分類，支援 FTS5 全文檢索。
+### 1. Layer 0-1: 原始文獻與結構實體層 (Distributed L0-L1)
+*   **檔案**: `data/taiwan_history.db` (全台總體), `data/hsinchu_history.db` (區域深耕)
+*   **結構 (v2.0)**: `Documents -> Volumes -> Contents`
+*   **內容**: 存放原始文本 (L0) 與透過 AI 萃取的基礎實體、提及與座標 (L1)。
+*   **特色**: 每個區域或文獻源可擁有獨立資料庫，透過一致的 Schema 維持「數據對稱性」。
 
-### 2. Layer 1: 結構實體層 (Atomic Entities)
-- **Table**: `entities`, `mentions`
-- **內容**: 透過 AI 萃取的 3,000+ 個基礎實體。包含：
-  - **人名 (Person)**: 拓墾者、官員、受試者。
-  - **地名 (Location)**: 古聚落、社名、行政區。
-  - **水利 (Irrigation)**: 埤圳、隧道、水源。
-  - **官職 (Official_Post)**: 巡撫、知府、同知。
-
-### 3. Layer 2: 知識中樞層 (AI Synthesized Atlas)
-- **Table**: `ai_knowledge_atlas`
-- **內容**: 由 AI 針對特定主題進行跨卷次分析後的合成模型。
-  - **Eco_System**: 全台水利開發矩陣。
-  - **Economy**: 樟腦、糖、茶、鹽經濟鏈。
-  - **Gov_Structure**: 歷代政權演變與權力結構。
-  - **Conflict_Logic**: 民變、械鬥與外交衝突因果鏈。
-  - **Toponym_Ref**: 地名古今對照與演進矩陣。
+### 2. Layer 2: 知識中樞層 (Centralized L2 Atlas)
+*   **檔案**: `data/history_atlas.db`
+*   **Table**: `knowledge_atlas`
+*   **內容**: 由各區域/總體資料庫經過「去重、對合、合成」後匯入的中樞。
+*   **血緣追蹤**: 具備 `source_origin` 標籤，可追溯回原始 L1 資料庫，確保 AI 輸出的每一句話都有史實依據。
 
 ---
 
-## 🛠️ 腳本說明 (Scripts Toolkit)
+## 🛠️ 腳本工具 (Scripts Toolkit)
 
-本專案提供一系列 Python 工具，支援從資料獲取到空間分析的完整流程：
+除了原有的萃取工具，v2.0 引入了關鍵的 **「跨庫遷移器」**：
 
 | 腳本名稱 | 功能描述 |
 | :--- | :--- |
-| `build_history_db.py` | 初始化資料庫，匯入原始文本並建立檢索索引。 |
-| `extract_entities.py` | 執行 AI 實體萃取與分類。 |
-| `geo_coding.py` | 將歷史地名與內政部/中研院古地名庫進行座標對齊。 |
-| `ingest_*.py` | 專項建模腳本（水利、經濟、衝突、地名等知識資產入庫）。 |
-| `export_kml.py` | 將具備座標的歷史實體匯出為 KML，供 Google Earth/QGIS 使用。 |
-| `flexible_db_dump.py` | 彈性匯出特定卷次內容，供 AI 做進一步深度研讀。 |
+| `atlas_migrator.py` | **[NEW]** 將分散在各區域 L1 資料庫的知識實體，自動標註來源並遷移至 L2 Atlas 中樞。 |
+| `build_history_db.py` | 根據 v2.0 Schema 初始化資料庫。 |
+| `geo_coding.py` | 歷史地名與空間資訊對齊。 |
+| `extract_entities.py` | AI 實體萃取（Person, Location, etc.）。 |
 
 ---
 

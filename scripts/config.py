@@ -8,6 +8,7 @@ import os
 # 預設路徑 (相對於儲存庫根目錄)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB_PATH = os.path.join(BASE_DIR, "data", "taiwan_history.db")
+ATLAS_DB_PATH = os.path.join(BASE_DIR, "data", "history_atlas.db")
 TXT_PATH = os.path.join(BASE_DIR, "data", "臺灣通史.txt")
 
 # 1920 SHP 檔由使用者自行下載後配置 (可修改此處或在腳本中啟動 AI 適配)

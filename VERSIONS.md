@@ -4,7 +4,19 @@
 
 ---
 
-## [v260223.2] - 2026-02-23 (Current)
+## [v260223.3] - 2026-02-23 (Latest)
+### 🏛️ L0-L1-L2 三層階梯式架構升級 (Tiered Architecture v2.0)
+- **架構重塑**：實現「分區溯源 (L1) -> 集中中樞 (L2)」的工業級 HGIS 架構。
+- **資料庫更新**：
+    - `history_atlas.db` (L2 Atlas): 全新知識中樞，整合 21 筆全台級合成知識。
+    - `taiwan_history.db` (L1 v2.0): 引入 `Documents -> Volumes -> Contents` 三級文本管理，支援單庫多文獻。
+- **工具釋出**：
+    - `scripts/atlas_migrator.py`: 支援跨資料庫的知識實體遷移與來源標註。
+    - `docs/v2_tiered_schema.sql`: 發布新一代 HGIS 數據交換標準。
+
+---
+
+## [v260223.2] - 2026-02-23
 ### 🚀 專業化 AI 技能封裝 (Skill-First Release)
 - **新增**：`skill/SKILL.md` 外掛式 AI 指令集，支援代理程式自動化 HGIS 分析。
 - **優化**：全腳本 `scripts/` 去耦合化，建立 `config.py` 標準路徑配置與 AI 適配機制。
