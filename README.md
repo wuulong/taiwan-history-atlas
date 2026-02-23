@@ -11,6 +11,7 @@
 - `skill/`: **[NEW]** AI 助理技能藍圖，包含 `SKILL.md` 指令集與配置範本。
 - `examples/`: 提供 AI 分析實例與專修摘要（如：王世傑列傳摘要）。
 - `docs/`: 專案文件、分析報告與資料庫 Schema。
+- `VERSIONS.md`: 儲存庫版本紀錄與 HGIS 知識更新歷程。
 
 ---
 

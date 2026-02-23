@@ -1,0 +1,37 @@
+# Taiwan History Atlas 版本紀錄 (VERSIONS.md)
+
+本文件紀錄 `taiwan-history-atlas` 儲存庫的重大更新路徑，包含資料庫版本、AI 知識圖譜釋出以及技能組更新。
+
+---
+
+## [v260223.2] - 2026-02-23 (Current)
+### 🚀 專業化 AI 技能封裝 (Skill-First Release)
+- **新增**：`skill/SKILL.md` 外掛式 AI 指令集，支援代理程式自動化 HGIS 分析。
+- **優化**：全腳本 `scripts/` 去耦合化，建立 `config.py` 標準路徑配置與 AI 適配機制。
+- **新增**：`scripts/config.py` 統一管理資料庫、文本與 SHP 路徑。
+
+---
+
+## [v260223.1] - 2026-02-23
+### 🌊 流域 HGIS 知識厚化 (River Basins Enrichment)
+- **資料庫更新 (`ai_knowledge_atlas` 表)**：
+    - `v260223.1-Zengwen`: 曾文溪流域 696 個厚數據 POI、五塊厝/蘇厝考證邏輯入庫。
+    - `v260223.1-Erren`: 二仁溪流域 463 個厚數據 POI、界河糧倉中洲社倉邏輯入庫。
+- **功能**：確立「15 分鐘極速對合」SOP，整合內政部古地名庫與《臺灣通史》文本。
+
+---
+
+## [v260222.1] - 2026-02-22
+### 🏛️ 三層架構基礎版本 (Layer 0-1-2 Foundation)
+- **核心釋出**：建立 `taiwan_history.db` 初期結構。
+- **Layer 0**：全量匯入《臺灣通史》37 卷原文，支援 FTS5 全文檢索。
+- **Layer 1**：初步萃取 3,000+ 個地名、人名與水利實體。
+- **Layer 2**：發布首批「地名演進矩陣」與「水利開發邏輯模型」。
+- **工具**：發布 `build_history_db.py`, `geo_coding.py` 等基礎腳本。
+
+---
+
+## 未來規劃 (Roadmap)
+- [ ] 整合 1920s 全台大字中心點座標至 `moi_settlements` 擴展表。
+- [ ] 支援更多方志文本（如《重修臺灣府志》）的 Layer 0 載入。
+- [ ] 強化 AI 對「宗族遷徙」與「林爽文事件」的專題建模。
