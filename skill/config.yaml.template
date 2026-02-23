@@ -1,0 +1,20 @@
+# Taiwan History Atlas - HGIS Skill Configuration Template
+# 請複製此檔案為 config.yaml 並根據您的環境修改路徑
+
+# 資料庫路徑 (相對於儲存庫根目錄)
+db_path: "data/taiwan_history.db"
+
+# 空間資料路徑 (請填入您本地 SHP 檔的實際絕對路徑或根目錄相對路徑)
+# 建議從中研院 AS-GIS 下載 1920 年代行政區劃圖層
+spatial_data:
+  shp_1920_township: "data/open-data/Historical_Boundaries/1920b_1.shp" # 街庄層級
+  shp_1920_oaza: "data/open-data/Historical_Boundaries/1920a_1.shp"     # 大字層級
+
+# 座標修正參數 (預設對位 1920 圖資偏移量，可根據實地硬地標進行修正)
+coordinate_offset:
+  lon_add: 0.00827
+  lat_sub: 0.0020
+
+# 執行環境配置
+environment:
+  python_path: "python3" # 或指定具備 geopandas 的虛擬環境路徑

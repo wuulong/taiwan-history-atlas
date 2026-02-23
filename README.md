@@ -8,8 +8,22 @@
 
 - `data/`: 包含核心 SQLite 資料庫 `taiwan_history.db`。
 - `scripts/`: 用於建立資料庫、萃取實體及入庫知識模型的腳本集。
+- `skill/`: **[NEW]** AI 助理技能藍圖，包含 `SKILL.md` 指令集與配置範本。
 - `examples/`: 提供 AI 分析實例與專修摘要（如：王世傑列傳摘要）。
 - `docs/`: 專案文件、分析報告與資料庫 Schema。
+
+---
+
+## 🤖 AI Agentic Skill (HGIS Architect)
+
+本專案不僅提供資料，更提供一套 **「AI 協作技能藍圖」**。您可以將此儲存庫引入您的 AI 助理環境（如 Claude, ChatGPT, Gemini 等代理介面），讓它具備專業的 HGIS 分析能力。
+
+### 啟動方式
+1. 將此 Repo 交給您的 AI 助理。
+2. 讓 AI 助理閱讀 `skill/SKILL.md`。
+3. 它是「外掛式知識引擎」，能引導 AI 自動處理史料數據、執行空間對合，並產出具備深度歷史感的流域導覽資訊。
+
+> **小技巧**：若您的環境路徑不固定，請引導 AI 讀取 `skill/config.yaml.template` 進行自動適配。
 
 ---
 

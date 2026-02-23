@@ -1,12 +1,20 @@
+import os
+import sys
+
+# Add scripts directory to path for portability
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+import config
+
+DB_PATH = config.DB_PATH
+
 import sqlite3
 import pandas as pd
 import geopandas as gpd
 import json
 import re
 
-DB_PATH = "data/history_texts/taiwan_history.db"
-SHP_B_PATH = "data/open-data/Historical_Boundaries/1920b_1.shp" # 街庄層級
-SHP_A_PATH = "data/open-data/Historical_Boundaries/1920a_1.shp" # 大字層級
+SHP_B_PATH = config.SHP_B_PATH
+SHP_A_PATH = config.SHP_A_PATH
 
 def clean_location_name(name):
     # 移除行政單位或概略描述的後綴，只保留核心地名

@@ -1,9 +1,18 @@
+import os
+import sys
+
+# Add scripts directory to path for portability
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+import config
+
+DB_PATH = config.DB_PATH
+
+
+# Add scripts directory to path for portability
+
 import sqlite3
 import argparse
-import sys
-import os
 
-DB_PATH = "data/history_texts/taiwan_history.db"
 
 def main():
     parser = argparse.ArgumentParser(description="從 taiwan_history.db 彈性匯出史料內容至檔案")

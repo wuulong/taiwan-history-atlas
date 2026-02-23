@@ -1,9 +1,18 @@
+import os
+import sys
+
+# Add scripts directory to path for portability
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+import config
+
+DB_PATH = config.DB_PATH
+
 import sqlite3
 import json
 import xml.etree.ElementTree as ET
 
-DB_PATH = "data/history_texts/taiwan_history.db"
-KML_OUTPUT_PATH = "data/history_texts/Taiwan_History_Geo.kml"
+# Add scripts directory to path for portability
+
 
 def create_kml_placemark(doc, name, description, lon, lat, color="ff0000ff"): # Default red
     placemark = ET.SubElement(doc, 'Placemark')

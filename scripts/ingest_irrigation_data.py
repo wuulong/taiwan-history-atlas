@@ -1,8 +1,19 @@
+import os
+import sys
+
+# Add scripts directory to path for portability
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+import config
+
+DB_PATH = config.DB_PATH
+
+
+# Add scripts directory to path for portability
+
 import sqlite3
 import json
 import re
 
-DB_PATH = "data/history_texts/taiwan_history.db"
 FILE_PATH = "tmp/agriculture_zhi_full.md"
 
 def parse_irrigation_table():

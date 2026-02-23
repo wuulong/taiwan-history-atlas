@@ -1,9 +1,17 @@
+import os
+import sys
+
+# Add scripts directory to path for portability
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+import config
+
+DB_PATH = config.DB_PATH
 
 import sqlite3
 import re
-import os
 
-DB_PATH = "data/history_texts/taiwan_history.db"
+# Add scripts directory to path for portability
+
 
 ERA_BASE = {
     "康熙": 1661,

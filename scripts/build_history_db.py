@@ -1,9 +1,15 @@
-import sqlite3
 import os
+import sys
+
+# Add scripts directory to path for portability
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+import config
+
+DB_PATH = config.DB_PATH
+
+import sqlite3
 import re
 
-DB_PATH = "data/history_texts/taiwan_history.db"
-TXT_PATH = "data/history_texts/臺灣通史.txt"
 
 def init_db(conn):
     cursor = conn.cursor()
