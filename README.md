@@ -48,13 +48,16 @@
 
 ## 🛠️ 腳本工具 (Scripts Toolkit)
 
-除了原有的萃取工具，v2.0 引入了關鍵的 **「跨庫遷移器」**：
+除了原有的萃取工具，v2.0 引入了關鍵的 **「跨庫遷移器」** 與 **「區域多書整合模組 (Regional Multi-book Integration)」**：
 
 | 腳本名稱 | 功能描述 |
 | :--- | :--- |
-| `atlas_migrator.py` | **[NEW]** 將分散在各區域 L1 資料庫的知識實體，自動標註來源並遷移至 L2 Atlas 中樞。 |
+| `atlas_migrator.py` | 將分散在各區域 L1 資料庫的知識實體，自動標註來源並遷移至 L2 Atlas 中樞。 |
+| `scripts/hsinchu/*_loader.py` | **[NEW]** 支援如《新竹縣採訪冊》、《淡水廳志》等「多書跨卷次」的統一 L0 解析與匯入。 |
+| `scripts/hsinchu/*_extractor.py` | **[NEW]** 針對 L1 聚落、水利、與城防設施進行特徵提取與綴詞清洗 (降維)。 |
+| `scripts/hsinchu/hsinchu_geo_*.py` | **[NEW]** 雙軌空間對合引擎：優先以 1920 堡圖大字對合，並聯集內政部古地名庫 (`moi_settlements`)。 |
 | `build_history_db.py` | 根據 v2.0 Schema 初始化資料庫。 |
-| `geo_coding.py` | 歷史地名與空間資訊對齊。 |
+| `geo_coding.py` | 歷史地名與空間資訊對齊（基礎版）。 |
 | `extract_entities.py` | AI 實體萃取（Person, Location, etc.）。 |
 
 ---
