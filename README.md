@@ -6,7 +6,9 @@
 
 ## 📁 目錄結構
 
-- `data/`: 包含核心 SQLite 資料庫 `taiwan_history.db`。
+- `data/`: 包含核心 SQLite 資料庫與開放格式資料。
+    - `data/geojson/`: **[NEW]** 層級二 (Layer 2) 知識點位的空間資料，支援 GIS 工具直接讀取。
+    - `data/markdown/`: **[NEW]** 歷史專題的「知識快照卡」，優化 GitHub 閱讀體驗。
 - `scripts/`: 用於建立資料庫、萃取實體及入庫知識模型的腳本集。
 - `skill/`: **[NEW]** AI 助理技能藍圖，包含 `SKILL.md` 指令集與配置範本。
 - `examples/`: 提供 AI 分析實例與專修摘要（如：王世傑列傳摘要）。
@@ -46,6 +48,20 @@
 
 ---
 
+## 🌐 開放資料與知識快照 (Open Data & Knowledge Snapshots)
+
+為了降低技術門檻並具體外顯歷史價值，本專案將 Layer 2 知識圖譜匯出為「外顯格式」：
+
+### 1. 🗺️ 空間導航 (GeoJSON)
+所有具備座標的歷史據點已封裝為 [GeoJSON 檔案](data/geojson/)。您可以將這些檔案拖入 [geojson.io](https://geojson.io) 立即在地圖上與現代地景對照。
+- **亮點圖層**：[竹塹歷史聚落空間分佈](data/geojson/竹塹歷史聚落空間分佈.geojson)、[全臺重要歷史陂圳](data/geojson/全臺重要歷史陂圳清單.geojson)。
+
+### 2. 📝 知識快照卡 (Markdown)
+專為 Markdown 閱讀器與 GitHub 介面優化，提供一目了然的專題彙總。
+- **精選專題**：[二仁溪流域水理演變邏輯](data/markdown/二仁溪流域界河與水理演變邏輯模型.md)、[清代臺灣主要官職職掌](data/markdown/清代臺灣主要官職職掌清單.md)、[臺灣地名命名學洞察](data/markdown/臺灣地名命名學與地理維度洞察.md)。
+
+---
+
 ## 🛠️ 腳本工具 (Scripts Toolkit)
 
 除了原有的萃取工具，v2.0 引入了關鍵的 **「跨庫遷移器」** 與 **「區域多書整合模組 (Regional Multi-book Integration)」**：
@@ -56,6 +72,7 @@
 | `scripts/hsinchu/*_loader.py` | **[NEW]** 支援如《新竹縣採訪冊》、《淡水廳志》等「多書跨卷次」的統一 L0 解析與匯入。 |
 | `scripts/hsinchu/*_extractor.py` | **[NEW]** 針對 L1 聚落、水利、與城防設施進行特徵提取與綴詞清洗 (降維)。 |
 | `scripts/hsinchu/hsinchu_geo_*.py` | **[NEW]** 雙軌空間對合引擎：優先以 1920 堡圖大字對合，並聯集內政部古地名庫 (`moi_settlements`)。 |
+| `scripts/export_atlas_to_open.py` | **[NEW]** 層級二 (Layer 2) 匯出引擎：將 SQLite 數據轉譯為 GeoJSON 與 Markdown 快照。 |
 | `build_history_db.py` | 根據 v2.0 Schema 初始化資料庫。 |
 | `geo_coding.py` | 歷史地名與空間資訊對齊（基礎版）。 |
 | `extract_entities.py` | AI 實體萃取（Person, Location, etc.）。 |
