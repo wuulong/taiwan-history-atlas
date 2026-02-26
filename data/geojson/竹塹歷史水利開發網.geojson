@@ -1,0 +1,2148 @@
+{
+  "type": "FeatureCollection",
+  "name": "竹塹歷史水利開發網",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石壁潭",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "石壁",
+          "county": "苗栗縣",
+          "town": "南庄鄉",
+          "clean_key": "石壁"
+        },
+        "mentions_count": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0373,
+          24.5744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "番子陂",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "番子",
+          "matched_town": "莿桐庄",
+          "clean_key": "番子"
+        },
+        "mentions_count": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.49306829029351,
+          23.78096419947855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "隆恩陂",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "隆恩",
+          "matched_town": "蘇澳庄",
+          "clean_key": "隆恩"
+        },
+        "mentions_count": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.81434073537065,
+          24.64639834145502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "二十五里石壁潭",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "石壁",
+          "county": "苗栗縣",
+          "town": "南庄鄉",
+          "clean_key": "石壁"
+        },
+        "mentions_count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0373,
+          24.5744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南埔圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "南埔",
+          "matched_town": "北埔庄",
+          "clean_key": "南埔"
+        },
+        "mentions_count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0376319708505,
+          24.686556648642473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雙連陂",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "雙連",
+          "county": "苗栗縣",
+          "town": "卓蘭鎮",
+          "clean_key": "雙連"
+        },
+        "mentions_count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8487,
+          24.3385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入樹杞林圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "樹杞林",
+          "county": "新竹縣",
+          "town": "竹東鎮",
+          "clean_key": "樹杞林"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.087,
+          24.7383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入下員山圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "下員山",
+          "matched_town": "竹東庄",
+          "clean_key": "下員山"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.02362932038554,
+          24.791559486248918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入水汴頭圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "水汴頭",
+          "matched_town": "桃園街",
+          "clean_key": "水汴頭"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.30222781031502,
+          25.028184999207962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "隆恩圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "隆恩",
+          "matched_town": "蘇澳庄",
+          "clean_key": "隆恩"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.81434073537065,
+          24.64639834145502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "花草林圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "花草林",
+          "county": "新竹縣",
+          "town": "竹東鎮",
+          "clean_key": "花草林"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.097,
+          24.6957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "油羅溪水瀦為陂",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "油羅",
+          "matched_town": "橫山庄",
+          "clean_key": "油羅"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.14844634258831,
+          24.70373302955461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "月眉圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "月眉",
+          "matched_town": "羅東街",
+          "clean_key": "月眉"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78416967433579,
+          24.669811821529528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北埔圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "北埔",
+          "matched_town": "三灣庄",
+          "clean_key": "北埔"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9644064390713,
+          24.647507788091787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入五分埔圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "五分埔",
+          "matched_town": "松山庄",
+          "clean_key": "五分埔"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56932360153723,
+          25.037835574298015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "水流潭",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "水流",
+          "county": "桃園市",
+          "town": "新屋區",
+          "clean_key": "水流"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0824,
+          25.0004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "番仔陂",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "番社仔",
+          "county": "新竹縣",
+          "town": "竹東鎮",
+          "clean_key": "番仔"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0819,
+          24.7484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "埔心圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "埔心",
+          "matched_town": "大園庄",
+          "clean_key": "埔心"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2131717607332,
+          25.0520618143218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "崁下圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "崁下",
+          "matched_town": "芎林庄",
+          "clean_key": "崁下"
+        },
+        "mentions_count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.05953370497943,
+          24.781116304027254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入花草林圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "花草林",
+          "county": "新竹縣",
+          "town": "竹東鎮",
+          "clean_key": "花草林"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.097,
+          24.6957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入雞油林圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "雞油林",
+          "county": "新竹縣",
+          "town": "竹東鎮",
+          "clean_key": "雞油林"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.098,
+          24.7338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入菜頭寮圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "菜頭寮",
+          "county": "新竹縣",
+          "town": "竹東鎮",
+          "clean_key": "菜頭寮"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0517,
+          24.7858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入七分子圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "七分子",
+          "county": "桃園市",
+          "town": "楊梅區",
+          "clean_key": "七分子"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1419,
+          24.9186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入九甲埔圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "九甲埔",
+          "matched_town": "六家庄",
+          "clean_key": "九甲埔"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00432414775318,
+          24.805639659391368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入烏瓦窯圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "烏瓦窯",
+          "county": "新竹市",
+          "town": "北區",
+          "clean_key": "烏瓦窯"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9575,
+          24.8292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入茄冬坑圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "茄冬坑",
+          "county": "苗栗縣",
+          "town": "銅鑼鄉",
+          "clean_key": "茄冬坑"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8025,
+          24.4384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入大茅埔圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "大茅埔",
+          "matched_town": "新埔庄",
+          "clean_key": "大茅埔"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1127876224428,
+          24.841024719301153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入四座屋圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "四座屋",
+          "matched_town": "新埔庄",
+          "clean_key": "四座屋"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0834283968848,
+          24.838004259697843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入石岡子圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "石岡子",
+          "county": "新竹縣",
+          "town": "關西鎮",
+          "clean_key": "石岡子"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1288,
+          24.8136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入五份埔圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "五份埔",
+          "county": "新竹縣",
+          "town": "新埔鎮",
+          "clean_key": "五份埔"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0964,
+          24.8207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入田心子圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "田心子",
+          "matched_town": "大園庄",
+          "clean_key": "田心子"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.18483151958411,
+          25.06128375499433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入貓兒錠圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "貓兒錠",
+          "matched_town": "舊港庄",
+          "clean_key": "貓兒錠"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.95459369127985,
+          24.868492081193743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東勢陂",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "東勢",
+          "matched_town": "士林庄",
+          "clean_key": "東勢"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53585630218994,
+          25.119694120836595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "猴洞圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "猴洞",
+          "county": "新竹縣",
+          "town": "橫山鄉",
+          "clean_key": "猴洞"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1212,
+          24.7228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "坪林圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "坪林",
+          "matched_town": "坪林庄",
+          "clean_key": "坪林"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.69019871056805,
+          24.941113516414262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "樹杞林圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "樹杞林",
+          "county": "新竹縣",
+          "town": "竹東鎮",
+          "clean_key": "樹杞林"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.087,
+          24.7383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雞油林圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "雞油林",
+          "county": "新竹縣",
+          "town": "竹東鎮",
+          "clean_key": "雞油林"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.098,
+          24.7338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大窩圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "大窩",
+          "county": "新竹縣",
+          "town": "竹東鎮",
+          "clean_key": "大窩"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0845,
+          24.7252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石壁潭圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "石壁",
+          "county": "苗栗縣",
+          "town": "南庄鄉",
+          "clean_key": "石壁"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0373,
+          24.5744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "芎林溪水瀦為陂",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "芎林",
+          "matched_town": "芎林庄",
+          "clean_key": "芎林"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.07461979644361,
+          24.779553156585084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入五塊厝圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "五塊厝",
+          "matched_town": "大園庄",
+          "clean_key": "五塊厝"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.22244076315188,
+          25.022749952238886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "五塊厝圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "五塊厝",
+          "matched_town": "大園庄",
+          "clean_key": "五塊厝"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.22244076315188,
+          25.022749952238886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "下員山圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "下員山",
+          "matched_town": "竹東庄",
+          "clean_key": "下員山"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.02362932038554,
+          24.791559486248918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "七分子圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "七分子",
+          "county": "桃園市",
+          "town": "楊梅區",
+          "clean_key": "七分子"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1419,
+          24.9186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "菜頭寮圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "菜頭寮",
+          "county": "新竹縣",
+          "town": "竹東鎮",
+          "clean_key": "菜頭寮"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0517,
+          24.7858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "隘口圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "隘口",
+          "matched_town": "六家庄",
+          "clean_key": "隘口"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.03748041880803,
+          24.802808707033684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入六張犁圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "六張犁",
+          "matched_town": "臺北市",
+          "clean_key": "六張犁"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55235188373058,
+          25.018942602106222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "六張犁圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "六張犁",
+          "matched_town": "臺北市",
+          "clean_key": "六張犁"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55235188373058,
+          25.018942602106222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "九甲埔圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "九甲埔",
+          "matched_town": "六家庄",
+          "clean_key": "九甲埔"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00432414775318,
+          24.805639659391368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "番子陂圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "番子",
+          "matched_town": "莿桐庄",
+          "clean_key": "番子"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.49306829029351,
+          23.78096419947855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入翁厝圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "翁厝",
+          "county": "新竹縣",
+          "town": "新豐鄉",
+          "clean_key": "翁厝"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9757,
+          24.9186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "翁厝圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "翁厝",
+          "county": "新竹縣",
+          "town": "新豐鄉",
+          "clean_key": "翁厝"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9757,
+          24.9186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入魚寮圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "魚寮",
+          "matched_town": "大城庄",
+          "clean_key": "魚寮"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32824710869639,
+          23.8710789159702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "魚寮圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "魚寮",
+          "matched_town": "大城庄",
+          "clean_key": "魚寮"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32824710869639,
+          23.8710789159702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "土地公埔圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "土地公埔",
+          "matched_town": "三芝庄",
+          "clean_key": "土地公埔"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52275815045661,
+          25.218460228542238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "河背圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "河背",
+          "county": "新竹縣",
+          "town": "峨眉鄉",
+          "clean_key": "河背"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0243,
+          24.6841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "畚箕窩圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "畚箕窩",
+          "county": "新竹縣",
+          "town": "峨眉鄉",
+          "clean_key": "畚箕窩"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0128,
+          24.6854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "香山坑圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "香山坑",
+          "matched_town": "香山庄",
+          "clean_key": "香山坑"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.93852946743726,
+          24.77154959027769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "田尾圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "田尾",
+          "matched_town": "南庄",
+          "clean_key": "田尾"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00840191411258,
+          24.627815159820788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三灣圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "三灣",
+          "matched_town": "三灣庄",
+          "clean_key": "三灣"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.95451996039306,
+          24.658817539122666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "內灣圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "內灣",
+          "matched_town": "三灣庄",
+          "clean_key": "內灣"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.94305025110043,
+          24.667156556970628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "茄冬坑圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "茄冬坑",
+          "county": "苗栗縣",
+          "town": "銅鑼鄉",
+          "clean_key": "茄冬坑"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8025,
+          24.4384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石岡子圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "石岡子",
+          "county": "新竹縣",
+          "town": "關西鎮",
+          "clean_key": "石岡子"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1288,
+          24.8136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "水汴頭圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "水汴頭",
+          "matched_town": "桃園街",
+          "clean_key": "水汴頭"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.30222781031502,
+          25.028184999207962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "五分埔圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "五分埔",
+          "matched_town": "松山庄",
+          "clean_key": "五分埔"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56932360153723,
+          25.037835574298015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新埔圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "新埔",
+          "matched_town": "板橋庄",
+          "clean_key": "新埔"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.45407067832004,
+          25.027402681201956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "田心子圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "田心子",
+          "matched_town": "大園庄",
+          "clean_key": "田心子"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.18483151958411,
+          25.06128375499433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大茅埔圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "大茅埔",
+          "matched_town": "新埔庄",
+          "clean_key": "大茅埔"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1127876224428,
+          24.841024719301153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "四座屋圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "四座屋",
+          "matched_town": "新埔庄",
+          "clean_key": "四座屋"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0834283968848,
+          24.838004259697843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "引水入枋寮圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "枋寮",
+          "matched_town": "新埔庄",
+          "clean_key": "枋寮"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0387270027272,
+          24.848291405405025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "枋寮圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "枋寮",
+          "matched_town": "新埔庄",
+          "clean_key": "枋寮"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0387270027272,
+          24.848291405405025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "山崎溪水瀦為陂",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "山崎",
+          "county": "新竹縣",
+          "town": "新豐鄉",
+          "clean_key": "山崎"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.994,
+          24.8689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "青埔子圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "青埔子",
+          "matched_town": "紅毛庄",
+          "clean_key": "青埔子"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00324840044347,
+          24.921808660525436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "員崠子陂",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "員崠子",
+          "matched_town": "竹東庄",
+          "clean_key": "員崠子"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0875696165085,
+          24.703102620902833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "芎蕉坑陂",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "芎蕉坑",
+          "matched_town": "苑裡庄",
+          "clean_key": "芎蕉坑"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.72435400441933,
+          24.40478099786844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "赤柯坪陂",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "赤柯坪",
+          "matched_town": "峨眉庄",
+          "clean_key": "赤柯坪"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99282969604913,
+          24.686307997997194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鹿廚坑陂",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "鹿廚坑",
+          "county": "新竹市",
+          "town": "香山區",
+          "clean_key": "鹿廚坑"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8973,
+          24.7345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "湳坑陂",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "湳坑",
+          "county": "新竹縣",
+          "town": "寶山鄉",
+          "clean_key": "湳坑"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9902,
+          24.7622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "茄冬坑陂",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "茄冬坑",
+          "county": "苗栗縣",
+          "town": "銅鑼鄉",
+          "clean_key": "茄冬坑"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8025,
+          24.4384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "後湖陂",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "後湖",
+          "matched_town": "紅毛庄",
+          "clean_key": "後湖"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98220448849426,
+          24.928978683203468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "秀才潭",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "秀才",
+          "matched_town": "新營庄",
+          "clean_key": "秀才"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.25516976579001,
+          23.262935588367306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "獅頭潭",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "獅頭",
+          "county": "新竹市",
+          "town": "香山區",
+          "clean_key": "獅頭"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9466,
+          24.7765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "永安陂",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "永安",
+          "county": "桃園市",
+          "town": "新屋區",
+          "clean_key": "永安"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0282,
+          24.9895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大安陂圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "大安",
+          "matched_town": "臺北市",
+          "clean_key": "大安"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53432424555335,
+          25.03418050168109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "暗坑圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "暗坑",
+          "county": "苗栗縣",
+          "town": "大湖鄉",
+          "clean_key": "暗坑"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8769,
+          24.4158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大坪林圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "大坪林",
+          "matched_town": "新店庄",
+          "clean_key": "大坪林"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5312658717337,
+          24.97564996585649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "內湖陂",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "內湖",
+          "matched_town": "內湖庄",
+          "clean_key": "內湖"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5747372584877,
+          25.08903103734876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "嘉志閣圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "嘉志閣",
+          "county": "苗栗縣",
+          "town": "苗栗市",
+          "clean_key": "嘉志閣"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8327,
+          24.572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "古亭笨圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "古亭笨",
+          "matched_town": "壯圍庄",
+          "clean_key": "古亭笨"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79152753307596,
+          24.77655888982596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大安溪圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "大安",
+          "matched_town": "臺北市",
+          "clean_key": "大安"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53432424555335,
+          25.03418050168109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "土地後陂",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "土地後",
+          "county": "桃園市",
+          "town": "八德區",
+          "clean_key": "土地後"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2934,
+          24.9301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "沙坑圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "沙坑",
+          "matched_town": "橫山庄",
+          "clean_key": "沙坑"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.15011295115957,
+          24.74065373588924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "八十份圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "八十份",
+          "county": "新竹縣",
+          "town": "橫山鄉",
+          "clean_key": "八十份"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1702,
+          24.7352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "九芎林圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "九芎林",
+          "matched_town": "坪林庄",
+          "clean_key": "九芎林"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74479571727188,
+          24.903580626363198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "下山圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "下山",
+          "matched_town": "芎林庄",
+          "clean_key": "下山"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.05829701816434,
+          24.80456632990561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "埔尾圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "埔尾庄",
+          "county": "新竹縣",
+          "town": "北埔鄉",
+          "clean_key": "埔尾"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.049,
+          24.7054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "十二寮圳",
+        "accuracy": "1920_Oaza",
+        "meta_data": {
+          "source": "1920a_1.shp",
+          "matched_oaza": "十二寮",
+          "matched_town": "峨眉庄",
+          "clean_key": "十二寮"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98965603570743,
+          24.667795348152243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西河排圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "西河排",
+          "county": "新竹縣",
+          "town": "峨眉鄉",
+          "clean_key": "西河排"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9801,
+          24.6804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "柑仔崎圳",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "柑仔崎",
+          "county": "新竹縣",
+          "town": "寶山鄉",
+          "clean_key": "柑仔崎"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.979,
+          24.7261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "番仔埤",
+        "accuracy": "MOI_Historic_Settlement",
+        "meta_data": {
+          "source": "MOI_Settlements",
+          "matched_name": "番仔埤",
+          "county": "苗栗縣",
+          "town": "通霄鎮",
+          "clean_key": "番仔埤"
+        },
+        "mentions_count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7259,
+          24.5302
+        ]
+      }
+    }
+  ]
+}
