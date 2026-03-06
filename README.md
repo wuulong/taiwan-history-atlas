@@ -40,40 +40,45 @@
 *   **內容**: 存放原始文本 (L0) 與透過 AI 萃取的基礎實體、提及與座標 (L1)。
 *   **特色**: 每個區域或文獻源可擁有獨立資料庫，透過一致的 Schema 維持「數據對稱性」。
 
-### 2. Layer 2: 知識中樞層 (Centralized L2 Atlas)
-*   **檔案**: `data/history_atlas.db`
-*   **Table**: `knowledge_atlas`
-*   **內容**: 由各區域/總體資料庫經過「去重、對合、合成」後匯入的中樞。
-*   **血緣追蹤**: 具備 `source_origin` 標籤，可追溯回原始 L1 資料庫，確保 AI 輸出的每一句話都有史實依據。
+### 3. Layer 3: 大歷史語義層 (Semantic Context Layer)
+*   **目標**: 將碎片化的史料轉化為引人入勝的歷史故事。
+*   **技術**: 透過 LLM (配合 `Fab Ask`) 結合空間屬性與文化特徵，自動生成「地理歷史脈絡 (Historical Context)」。
+*   **應用**: 為 WalkGIS 等導覽介面提供深度敘事內容。
+
+### 4. Layer 4: 空間拓樸分析層 (Spatial Topology Layer)
+*   **目標**: 抽離物理地表限制，研究「點與環境」的時空交互作用。
+*   **技術**:
+    *   **水系對合**: 計算遺址與流域各級河川的拓樸關係。
+    *   **高程對照**: 整合 DTM (20m) 數值地形模型分析生存等高線。
+*   **應用**: 推導超長時序下的「聚落地貌移轉軌跡」。
 
 ---
 
 ## 🌐 開放資料與知識快照 (Open Data & Knowledge Snapshots)
 
-為了降低技術門檻並具體外顯歷史價值，本專案將 Layer 2 知識圖譜匯出為「外顯格式」：
+為了降低技術門檻並具體外顯歷史價值，本專案將 Layer 2-4 知識圖譜匯出為「外顯格式」：
 
 ### 1. 🗺️ 空間導航 (GeoJSON)
 所有具備座標的歷史據點已封裝為 [GeoJSON 檔案](data/geojson/)。您可以將這些檔案拖入 [geojson.io](https://geojson.io) 立即在地圖上與現代地景對照。
 - **亮點圖層**：[竹塹歷史聚落空間分佈](data/geojson/竹塹歷史聚落空間分佈.geojson)、[全臺重要歷史陂圳](data/geojson/全臺重要歷史陂圳清單.geojson)。
 
-### 2. 📝 知識快照卡 (Markdown)
-專為 Markdown 閱讀器與 GitHub 介面優化，提供一目了然的專題彙總。
-- **精選專題**：[二仁溪流域水理演變邏輯](data/markdown/二仁溪流域界河與水理演變邏輯模型.md)、[清代臺灣主要官職職掌](data/markdown/清代臺灣主要官職職掌清單.md)、[臺灣地名命名學洞察](data/markdown/臺灣地名命名學與地理維度洞察.md)。
+### 2. 📖 深度專題報告 (Docs)
+- **最新分析**: [🏺 曾文溪流域聚落時空移轉深度分析報告](docs/settlement_shift_report.md)
+- **分析計畫**: [考古分析計畫 (Level 1-4)](docs/archaeology_analysis_plan.md)
 
 ---
 
 ## 🛠️ 腳本工具 (Scripts Toolkit)
 
-除了原有的萃取工具，v2.0 引入了關鍵的 **「跨庫遷移器」** 與 **「區域多書整合模組 (Regional Multi-book Integration)」**：
+除了原有的萃取工具，v3.0 引入了關鍵的 **「空間拓樸與語義厚化管線」**：
 
 | 腳本名稱 | 功能描述 |
 | :--- | :--- |
-| `atlas_migrator.py` | 將分散在各區域 L1 資料庫的知識實體，自動標註來源並遷移至 L2 Atlas 中樞。 |
-| `scripts/hsinchu/*_loader.py` | **[NEW]** 支援如《新竹縣採訪冊》、《淡水廳志》等「多書跨卷次」的統一 L0 解析與匯入。 |
-| `scripts/hsinchu/*_extractor.py` | **[NEW]** 針對 L1 聚落、水利、與城防設施進行特徵提取與綴詞清洗 (降維)。 |
-| `scripts/hsinchu/hsinchu_geo_*.py` | **[NEW]** 雙軌空間對合引擎：優先以 1920 堡圖大字對合，並聯集內政部古地名庫 (`moi_settlements`)。 |
-| `scripts/export_atlas_to_open.py` | **[NEW]** 層級二 (Layer 2) 匯出引擎：將 SQLite 數據轉譯為 GeoJSON 與 Markdown 快照。 |
-| `build_history_db.py` | 根據 v2.0 Schema 初始化資料庫。 |
+| `batch_l3_enrichment.py` | **[NEW]** 大歷史語義批次厚化管線，具備斷點續傳功能。 |
+| `enrich_sites_with_elevation.py` | **[NEW]** 跨縣市 DTM 高程自動對位工具。 |
+| `analyze_settlement_shift.py` | **[NEW]** 聚落時空移轉統計分析模型 (XY+Z)。 |
+| `poc_l4_tributary_clustering.py` | **[NEW]** 全台流域水系對合引擎。 |
+| `atlas_migrator.py` | 將 L1 資料庫實體自動標註來源並遷移至 L2 Atlas。 |
 | `geo_coding.py` | 歷史地名與空間資訊對齊（基礎版）。 |
 | `extract_entities.py` | AI 實體萃取（Person, Location, etc.）。 |
 
