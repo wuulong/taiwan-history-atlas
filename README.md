@@ -64,6 +64,7 @@
 
 ### 2. 📖 深度專題報告 (Docs)
 - **最新分析**: [🏺 曾文溪流域聚落時空移轉深度分析報告](docs/settlement_shift_report.md)
+- **實證案例**: [🏛️ 南科考古館與曾文溪海陸變遷](docs/case_study_stsp_museum.md)
 - **分析計畫**: [考古分析計畫 (Level 1-4)](docs/archaeology_analysis_plan.md)
 
 ---
