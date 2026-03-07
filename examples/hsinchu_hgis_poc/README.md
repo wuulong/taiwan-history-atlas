@@ -1,6 +1,7 @@
 # 新竹五書歷史地名密度分析 (Hsinchu HGIS Explorer)
 
 這是利用 `qgis-project-architect` 技能自動生成的第二個分析範例，展示了如何將史料文本中的「提及次數」轉化為空間上的「歷史重心」。
+![hsinchu_hgis.png](hsinchu_hgis.png)
 
 ## 📂 內容物
 - **`Hsinchu_Explorer.qgs`**: QGIS 專案檔（一鍵開啟）。

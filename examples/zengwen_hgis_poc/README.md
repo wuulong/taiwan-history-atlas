@@ -2,6 +2,8 @@
 
 本範例展示了如何運用 QGIS 對曾文溪流域的考古遺址進行進階空間分析，包含密度熱點與高程分佈研究。
 
+![20260307_qgis-advanced-analysis-and-heatmap-battle.png](20260307_qgis-advanced-analysis-and-heatmap-battle.png)
+
 ## 目錄說明
 - `Zengwen_HGIS_Hub.qgs`: QGIS 專案檔，已配置好所有樣式與圖層。
 - `poc_data_hub.db`: 本次分析專用的 SQLite 數據快照，包含經過處理的考古遺址數據。
