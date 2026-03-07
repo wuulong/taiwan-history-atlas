@@ -1,0 +1,9 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="moi_settlements_points">
+        <SrcDataSource relativeToVRT="1">../../data/taiwan_history.db</SrcDataSource>
+        <SrcLayer>moi_settlements</SrcLayer>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="longitude" y="latitude"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

@@ -4,6 +4,29 @@
 
 ---
 
+## [v260307.1] - 2026-03-07
+### 📊 軟體定義地圖 (SDM) 與 進階空間分析範例 (QGIS Automation POC)
+- **實作 POC3：進階空間分析中樞**：
+    - **自動化熱點圖 (Heatmap)**：解決 QGIS 3 `heatmapRenderer` XML 配置、物理單位 (MM) 與權重 (importance_rank) 的深水區整合。
+    - **高程分級渲染 (Graduated Symbol)**：將遺址高程數據轉化為生存階梯視覺模型。
+- **SDM 紀律實踐**：
+    - 引入 **Local Data Hub (SQLite Snapshot)** 技術，在不污染 `history_atlas.db` 原型資料的情況下，實現「可攜式分析環境」。
+- **釋出範例**：
+    - `examples/zengwen_hgis_poc/`: 包含一鍵開啟的 QGIS 專案、VRT 連接定義以及曾文溪考古資料快照。
+
+---
+
+## [v260307.0] - 2026-03-07
+### 🤖 QGIS 專案檔 (.qgs) 自動化生成 (QGIS Project Automation)
+- **初版 POC1-POC2 釋出**：
+    - 實作基於 Jinja2 模板的 QGIS XML 專案生成腳本。
+    - 整合中研院 WMTS 線上底圖、KML 流域圖資。
+    - **視覺標註 (POC2)**：實現幾何感知的標籤配置與 macOS 字型 (PingFang) 相容性修復。
+- **工具釋出**：
+    - `scripts/poc_generate_qgs.py`: QGIS 專案自動化生成腳本初版。
+
+---
+
 ## [v260306.1] - 2026-03-06
 ### 🏺 考古遺址 L3 語義厚化與 L4 空間拓樸 (Archaeology L3-L4 Integration)
 - **Master Registry (L1)**：整合文資局、中研院與地方政府 Open Data，建立 2,563 處全台遺址基礎點位庫。

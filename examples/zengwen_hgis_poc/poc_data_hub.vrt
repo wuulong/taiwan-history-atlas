@@ -1,0 +1,9 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="v_archaeology_analysis">
+        <SrcDataSource relativeToVRT="1">./poc_data_hub.db</SrcDataSource>
+        <SrcLayer>v_archaeology_analysis</SrcLayer>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="longitude" y="latitude"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
